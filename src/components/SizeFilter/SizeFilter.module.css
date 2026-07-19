@@ -1,0 +1,68 @@
+.filterContainer {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 25px 0;
+    color: var(--color-text-main);
+}
+
+.carouselWrapper {
+    position: relative;
+    width: 275px;
+    margin: 0 auto;
+}
+
+.carousel {
+    display: flex;
+    list-style: none;
+    align-items: stretch;
+    gap: 13px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    padding-right: 16px;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.sizeItem {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.sizeLink {
+    height: 59px;
+    width: 59px;
+    text-decoration: none;
+    display: block;
+}
+
+.sizeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-surface);
+    color: var(--color-border);
+    border: var(--primary-red) 2px solid;
+    border-radius: var(--radius-pill);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.arrowLeft {
+    left: -35px;
+}
+
+.arrowRight {
+    right: -35px;
+}

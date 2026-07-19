@@ -12,3 +12,21 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background-color: var(--neutral-bg-color);
+    color: var(--primary-red);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
