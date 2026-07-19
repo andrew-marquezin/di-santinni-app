@@ -8,6 +8,22 @@
         "oldPrice": 799.00,
         "currentPrice": 350.00,
         "linkUrl": "/promocao-especial"
+      },
+      {
+        "id": "2",
+        "imageUrl": "/assets/banners/hero-1.jpg",
+        "discountBadge": "20% OFF",
+        "oldPrice": 799.00,
+        "currentPrice": 350.00,
+        "linkUrl": "/promocao-especial"
+      },
+      {
+        "id": "3",
+        "imageUrl": "/assets/banners/hero-1.jpg",
+        "discountBadge": "20% OFF",
+        "oldPrice": 799.00,
+        "currentPrice": 350.00,
+        "linkUrl": "/promocao-especial"
       }
     ],
     "categoriesCarousel": [
@@ -61,23 +77,31 @@
     "brandHighlights": [
       {
         "id": "1",
+        "title": "Converse",
         "imageUrl": "/assets/brands/converse-bg.jpg",
-        "logoUrl": "/assets/brands/converse-logo.png"
+        "logoUrl": "/assets/brands/converse-logo.svg",
+        "linkUrl": "converse"
       },
       {
         "id": "2",
+        "title": "Olympikus",
         "imageUrl": "/assets/brands/olympikus-bg.jpg",
-        "logoUrl": "/assets/brands/olympikus-logo.png"
+        "logoUrl": "/assets/brands/olympikus-logo.svg",
+        "linkUrl": "converse"
       },
       {
         "id": "3",
+        "title": "Kenner",
         "imageUrl": "/assets/brands/kenner-bg.jpg",
-        "logoUrl": "/assets/brands/kenner-logo.png"
+        "logoUrl": "/assets/brands/kenner-logo.svg",
+        "linkUrl": "converse"
       },
       {
         "id": "4",
+        "title": "Converse",
         "imageUrl": "/assets/brands/converse-bg.jpg",
-        "logoUrl": "/assets/brands/converse-logo.png"
+        "logoUrl": "/assets/brands/converse-logo.svg",
+        "linkUrl": "converse"
       }
     ],
     "productsSection": {

@@ -3,6 +3,7 @@ import Header from "./components/Header/Header.tsx";
 import HeroBanner from "./components/HeroBanner/HeroBanner.tsx";
 import CategoriesCarousel from "./components/CategoriesCarousel/CategoriesCarousel.tsx";
 import SizeFilter from "./components/SizeFilter/SizeFilter.tsx";
+import BrandsHighlight from "./components/BrandsHighlight/BrandsHighlight.tsx";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         </div>
         <CategoriesCarousel/>
         <SizeFilter/>
+        <BrandsHighlight/>
       </main>
     </>
   )

@@ -1,13 +1,6 @@
-.carouselContainer {
+.highlightContainer {
     display: block;
-    margin-left: 16px;
-}
-
-.title {
-    font-size: 20px;
-    font-weight: 600;
-    margin: 30px 0;
-    color: var(--color-text-main);
+    margin: 50px 0 50px 16px;
 }
 
 .carouselWrapper {
@@ -18,7 +11,7 @@
     display: flex;
     list-style: none;
     align-items: stretch;
-    gap: 7px;
+    gap: 9px;
     overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
@@ -30,15 +23,15 @@
     display: none;
 }
 
-.categoryItem {
-    height: 238px;
+.brandItem {
+    height: 213px;
+    width: 155px;
     position: relative;
     flex-shrink: 0;
 }
 
-
-.categoryImage {
-    width: 163px;
+.brandImage {
+    width: 100%;
     height: 100%;
     border-radius: var(--radius-md);
     object-fit: cover;
@@ -55,28 +48,18 @@
     border-radius: var(--radius-md);
 }
 
-.categoryLink {
+.brandLink {
     text-decoration: none;
     display: block;
     height: 100%;
 }
 
-.categoryTitle {
+.brandLogo {
     position: absolute;
-    bottom: 12px;
-    left: 12px;
-    color: var(--primary-red);
-    background-color: var(--neutral-bg-color);
-    border-radius: var(--radius-pill);
-    font-size: 14px;
-    font-weight: 600;
-    padding: 6px 14px;
-}
-
-.arrowLeft {
-    left: -8px;
-}
-
-.arrowRight {
-    right: 8px;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    object-fit: contain;
+    z-index: 2;
 }
