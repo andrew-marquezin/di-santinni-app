@@ -1,0 +1,41 @@
+:root {
+    --primary-red: #C8102E;
+    --neutral-bg-color: #FEFCFB;
+
+    --color-text-main: #0C0C0C; /* Textos principais, títulos e marca */
+    --color-text-light: #FAFAF8; /* Textos sobre fundos escuros/vermelhos (ex: "CONFIRA") */
+    --color-text-secondary: #666666; /* Textos de apoio e descrições */
+    --color-text-muted: #888; /* Preços antigos (riscados) */
+
+    --color-surface: #F5F5F5; /* Fundo de áreas cinzas claras ou cards */
+    --color-border: #9E0C24; /* Linhas finas, como a borda dos tamanhos (33, 34, 35) */
+    --color-overlay: rgba(0, 0, 0, 0.4); /* Fundo escurecido para modais ou gradientes sobre imagens */
+
+    --font-family-base: 'Montserrat', sans-serif;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-pill: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0; /* Cor de fundo para o desktop */
+    display: flex;
+    justify-content: center;
+    /*margin: 0;*/
+}
+
+#root {
+    width: 100%;
+    max-width: 430px; /* Largura padrão de um iPhone Pro Max */
+    min-height: 100vh;
+    background-color: var(--neutral-bg-color); /* Cor de fundo do app */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+    font-family: "Outfit", sans-serif;
+}
