@@ -2,18 +2,18 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 169px;
-    height: 336px;
+    width: 224px;
+    height: 445px;
     flex-shrink: 0;
     background: var(--color-text-light);
-    border-radius: var(--radius-md, 8px);
+    border-radius: 24px;
     padding: 0 12px;
 }
 
 .cardHeader {
     position: absolute;
     left: 12px;
-    right: 12px;
+    right: 15px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -23,16 +23,16 @@
 .discountBadge {
     background-color: var(--primary-red);
     color: var(--color-text-light);
-    font-size: 10.5px;
+    font-size: 14px;
     font-weight: 600;
-    padding: 2px 7.5px;
+    padding: 3px 10px;
     border-radius: var(--radius-pill);
 }
 
 .favoriteBtn {
     background: transparent;
-    height: 18px;
-    width: 18px;
+    height: 21px;
+    width: 19px;
     border: none;
     cursor: pointer;
     padding: 0;
@@ -46,25 +46,25 @@
     color: inherit;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    height: auto;
 }
 
 .imageWrapper {
     width: calc(100% + 24px);
-    height: 156px;
+    height: 207px;
     display: flex;
     background-color: var(--color-card-bg);
     align-items: center;
     justify-content: center;
     margin: -12px -12px 12px -12px;
-    border-radius: var(--radius-md, 8px) var(--radius-md, 8px) 0 0;
+    border-radius: 24px 24px 0 0;
     padding: 16px;
     box-sizing: border-box;
 }
 
 .productImage {
-    width: 143px;
-    height: 77px;
+    width: 190px;
+    height: 102px;
     object-fit: contain;
     mix-blend-mode: multiply;
 }
@@ -73,21 +73,21 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    gap: 12px;
 }
 
 .brand {
-    font-size: 10px;
+    font-size: 12px;
     color: var(--color-text-muted);
     text-transform: uppercase;
     font-weight: 400;
-    margin-bottom: 4px;
 }
 
 .title {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     color: #000;
-    margin: 0 0 12px 0;
+    margin: 0;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -97,27 +97,25 @@
 .priceBox {
     display: flex;
     flex-direction: column;
-    margin: auto 0;
+    gap: 4px;
 }
 
 .oldPrice {
-    font-size: 10px;
+    font-size: 12px;
     color: var(--color-text-muted);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .currentPrice {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--primary-red);
-    margin: 2px 0;
 }
 
 .clubInfo {
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 400;
     color: #555;
-    margin-top: 4px;
 }
 
 .yellow {
@@ -125,26 +123,79 @@
 }
 
 .installments {
-    font-size: 9px;
+    font-size: 12px;
     font-weight: 400;
     color: var(--color-text-muted);
+    margin-bottom: 12px;
 }
 
 .buyButton {
-    margin-top: 12px;
+    margin-top: 10px;
     width: 100%;
     padding: 10px;
-    background-color: var(--primary-red, #E3000F); /* Ajuste a cor conforme o design */
+    background-color: var(--primary-red);
     color: #FFFFFF;
     border: none;
-    border-radius: var(--radius-md, 8px);
+    border-radius: var(--radius-pill);
     font-size: 13px;
     font-weight: 700;
     cursor: pointer;
-    transition: transform 0.2s ease;
 }
 
-/* Efeitinho legal quando o usuário clica */
-.buyButton:active {
-    transform: scale(0.97);
+/* Estilos para o card pequeno */
+.small {
+    width: 156px;
+    height: 336px;
+    padding: 0 10px;
+    border-radius: 18px;
+}
+
+.small .imageWrapper {
+    height: 156px;
+    border-radius: 18px 18px 0 0;
+}
+
+.small .productImage {
+    width: 143px;
+    height: 77px;
+}
+
+.small .info {
+    gap: 9px;
+}
+
+.small .brand {
+    font-size: 10px;
+    margin-bottom: -6px;
+}
+
+.small .title {
+    font-size: 14px;
+    -webkit-line-clamp: 2;
+    margin-bottom: 2px;
+}
+
+.small .priceBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.small .oldPrice {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.small .currentPrice {
+    font-size: 18px;
+}
+
+.small .clubInfo, .small .installments {
+    font-size: 9px;
+}
+
+.small .buyButton {
+    padding: 8px;
+    font-size: 10.5px;
+    margin: -2px 0 0;
 }

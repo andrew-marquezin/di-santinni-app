@@ -183,12 +183,50 @@
             }
           },
           "gender": "MASCULINO"
+        },
+        {
+          "id": "2",
+          "brand": "MIZUNO",
+          "name": "Tênis Mizuno Wave Endeavor 3",
+          "imageUrl": "/assets/products/mizuno-wave.png",
+          "isFavorite": false,
+          "discountPercent": 20,
+          "pricing": {
+            "oldPrice": "799,00",
+            "currentPrice": "499,90",
+            "clubPrice": "399,00",
+            "installments": {
+              "count": 5,
+              "value": "100,00",
+              "hasInterest": false
+            }
+          },
+          "gender": "MASCULINO"
         }
       ]
     },
     "newArrivals": [
       {
         "id": "1",
+        "brand": "MIZUNO",
+        "name": "Tênis Mizuno Wave Endeavor 3",
+        "imageUrl": "/assets/products/mizuno-wave.png",
+        "isFavorite": false,
+        "discountPercent": 20,
+        "pricing": {
+          "oldPrice": "799,00",
+          "currentPrice": "499,90",
+          "clubPrice": "399,00",
+          "installments": {
+            "count": 5,
+            "value": "100,00",
+            "hasInterest": false
+          }
+        },
+        "gender": "MASCULINO"
+      },
+      {
+        "id": "2",
         "brand": "MIZUNO",
         "name": "Tênis Mizuno Wave Endeavor 3",
         "imageUrl": "/assets/products/mizuno-wave.png",
