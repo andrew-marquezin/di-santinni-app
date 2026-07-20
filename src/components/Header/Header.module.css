@@ -1,0 +1,50 @@
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Garante que fique por cima de tudo */
+    background: var(--neutral-bg-color); /* Deixe transparente se o figma for assim */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px; /* Ajuste conforme o Figma */
+}
+
+.iconButton {
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: #000;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.iconButton:active .icon {
+    color: #888;
+}
+
+.bagWrapper {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background-color: var(--primary-red);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

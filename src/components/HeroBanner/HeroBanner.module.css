@@ -1,0 +1,111 @@
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -122px;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.bannerImage {
+    width: 150%;
+    /*left: 20%;*/
+    transform: translateX(-13%);
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.gradientOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%);
+    pointer-events: none;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 84px;
+    width: 275px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.priceRow {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+.oldPrice {
+    color: var(--color-text-light);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.discountBadge {
+    background-color: var(--primary-red);
+    color: var(--color-text-light);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: var(--radius-pill);
+}
+
+.currentPrice {
+    color: var(--color-text-light);
+    font-size: 55px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+}
+
+.ctaButton {
+    margin-top: 8px;
+    background-color: var(--primary-red);
+    color: var(--color-text-light);
+    border: none;
+    border-radius: var(--radius-pill);
+    padding: 10px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.paginationDots {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 4px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.active {
+    background-color: var(--primary-red);
+}
