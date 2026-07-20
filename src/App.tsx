@@ -5,6 +5,7 @@ import CategoriesCarousel from "./components/CategoriesCarousel/CategoriesCarous
 import SizeFilter from "./components/SizeFilter/SizeFilter.tsx";
 import BrandsHighlight from "./components/BrandsHighlight/BrandsHighlight.tsx";
 import ProductsSection from "./components/ProductsSection/ProductsSection.tsx";
+import BrandsShowcase from "./components/BrandsShowcase/BrandsShowcase.tsx";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <BrandsHighlight/>
           <ProductsSection/>
         </div>
+        <BrandsShowcase/>
       </main>
     </>
   )

@@ -24,7 +24,7 @@ export default function ProductsSection() {
         <ul className={styles.productsList}>
           {products.filter(product => product.gender === activeFilter)
             .map(product => (
-                <ProductCard key={product.id} product={product}/>
+                <ProductCard key={product.id} product={product} size="small" />
               )
             )}
         </ul>

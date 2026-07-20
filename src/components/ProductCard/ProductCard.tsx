@@ -19,15 +19,21 @@ interface IProductProps {
         hasInterest: boolean
       }
     }
-  }
+  },
+  size?: 'small'
 }
 
 export default function ProductCard(props: IProductProps) {
-  const {product} = props;
+  const {product, size} = props;
   const [isFavorite, setIsFavorite] = useState(product.isFavorite);
 
+  const cardClasses = [
+    styles.card,
+    size ? styles[size] : ''
+  ].join(' ');
+
   return (
-    <li className={styles.card}>
+    <li className={cardClasses}>
       <div className={styles.cardHeader}>
         {product.discountPercent && (
           <span className={styles.discountBadge}>-{product.discountPercent}%</span>
