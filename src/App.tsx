@@ -6,6 +6,8 @@ import SizeFilter from "./components/SizeFilter/SizeFilter.tsx";
 import BrandsHighlight from "./components/BrandsHighlight/BrandsHighlight.tsx";
 import ProductsSection from "./components/ProductsSection/ProductsSection.tsx";
 import BrandsShowcase from "./components/BrandsShowcase/BrandsShowcase.tsx";
+import NewArrivals from "./components/NewArrivals/NewArrivals.tsx";
+import NavBar from "./components/NavBar/NavBar.tsx"; // Importa a NavBar
 
 function App() {
 
@@ -24,7 +26,9 @@ function App() {
           <ProductsSection/>
         </div>
         <BrandsShowcase/>
+        <NewArrivals/>
       </main>
+      <NavBar /> {/* Adiciona a NavBar aqui */}
     </>
   )
 }
