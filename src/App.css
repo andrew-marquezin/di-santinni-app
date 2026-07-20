@@ -30,3 +30,10 @@
     align-items: center;
     justify-content: center;
 }
+
+.dark-background-wrapper {
+    background-color: var(--color-darker-bg);
+    padding-top: 100px; /* Ajuste para descer o conteúdo */
+    margin-top: -100px; /* Ajuste para compensar o padding */
+    padding-bottom: 40px;
+}

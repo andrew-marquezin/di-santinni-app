@@ -1,0 +1,151 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 169px;
+    height: 336px;
+    flex-shrink: 0;
+    background: var(--color-text-light);
+    border-radius: var(--radius-md, 8px);
+    padding: 12px;
+}
+
+.cardHeader {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 2;
+}
+
+.discountBadge {
+    background-color: var(--primary-red);
+    color: var(--color-text-light);
+    font-size: 10.5px;
+    font-weight: 600;
+    padding: 2px 7.5px;
+    border-radius: var(--radius-pill);
+}
+
+.favoriteBtn {
+    background: transparent;
+    height: 18px;
+    width: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productLink {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.imageWrapper {
+    width: calc(100% + 24px);
+    height: 156px;
+    display: flex;
+    background-color: var(--color-darker-bg);
+    align-items: center;
+    justify-content: center;
+    margin: -12px -12px 12px -12px;
+    border-radius: var(--radius-md, 8px) var(--radius-md, 8px) 0 0; /* Arredonda apenas o topo */
+    padding: 16px; /* Dá um respiro para o tênis não colar na parede cinza */
+    box-sizing: border-box;
+}
+
+.productImage {
+    width: 143px;
+    height: 77px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.brand {
+    font-size: 10px;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin: 0 0 12px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.priceBox {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.oldPrice {
+    font-size: 10px;
+    color: var(--color-text-muted);
+    font-weight: 600;
+}
+
+.currentPrice {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--primary-red);
+    margin: 2px 0;
+}
+
+.clubInfo {
+    font-size: 9px;
+    font-weight: 400;
+    color: #555;
+    margin-top: 4px;
+}
+
+.yellow {
+    color: #C89B2A;
+}
+
+.installments {
+    font-size: 9px;
+    font-weight: 400;
+    color: var(--color-text-muted);
+}
+
+.buyButton {
+    margin-top: 12px;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-red, #E3000F); /* Ajuste a cor conforme o design */
+    color: #FFFFFF;
+    border: none;
+    border-radius: var(--radius-md, 8px);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+/* Efeitinho legal quando o usuário clica */
+.buyButton:active {
+    transform: scale(0.97);
+}

@@ -1,0 +1,56 @@
+.container {
+    margin: 15px 0 15px 16px;
+}
+
+.tabsContainer {
+    display: flex;
+    background-color: var(--color-darker-bg);
+    margin-bottom: 24px;
+    position: relative;
+    /*border-bottom: 2px solid #FFF;*/
+    /*gap: 24px;*/
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.tabsContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.tab {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    padding: 14px 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-text-grey);
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.tab.active {
+    font-weight: 600;
+    color: var(--primary-red);
+}
+
+.tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--primary-red);
+    border-radius: 2px;
+}
+
+.productsList {
+    display: flex;
+    gap: 14px;
+}
