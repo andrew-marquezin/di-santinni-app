@@ -40,7 +40,7 @@
 .categoryImage {
     width: 163px;
     height: 100%;
-    border-radius: var(--radius-md);
+    border-radius: 15px;
     object-fit: cover;
 }
 
@@ -52,7 +52,7 @@
     height: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 60%);
     pointer-events: none;
-    border-radius: var(--radius-md);
+    border-radius: 15px;
 }
 
 .categoryLink {

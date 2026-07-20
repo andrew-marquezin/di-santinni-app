@@ -12,10 +12,18 @@ export default function BrandsHighlight() {
         <ul className={styles.carousel} ref={carouselRef}>
           {brands.map(brand => (
             <li key={brand.id} className={styles.brandItem}>
-              <a href={`/marca/${brand.linkUrl}`} className={styles.brandLink}>
-                <img src={brand.imageUrl} alt={`Tema ${brand.title}`} className={styles.brandImage}/>
+              <a href={`/marca/${brand.id}`} className={styles.brandLink}>
+                <img
+                  src={brand.imageUrl}
+                  alt={`Destaque de produtos da marca ${brand.id.replace('brand-', '')}`}
+                  className={styles.brandImage}
+                />
                 <div className={styles.gradientOverlay}></div>
-                <img src={brand.logoUrl} alt={`Logo ${brand.title}`} className={styles.brandLogo}/>
+                <img
+                  src={brand.logoUrl}
+                  alt={`Logo da marca ${brand.id.replace('brand-', '')}`}
+                  className={styles.brandLogo}
+                />
               </a>
             </li>
           ))}
