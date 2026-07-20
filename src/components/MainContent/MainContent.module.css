@@ -1,0 +1,13 @@
+.mainContentWrapper {
+    position: relative;
+}
+
+.darkBackground {
+    position: absolute;
+    top: 150px; /* Ajuste este valor para alinhar com o meio do carrossel */
+    left: 0;
+    right: 0;
+    height: 674px;
+    background-color: #F5F5F5; /* Cor de fundo desejada */
+    z-index: -1;
+}

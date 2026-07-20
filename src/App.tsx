@@ -4,6 +4,7 @@ import HeroBanner from "./components/HeroBanner/HeroBanner.tsx";
 import CategoriesCarousel from "./components/CategoriesCarousel/CategoriesCarousel.tsx";
 import SizeFilter from "./components/SizeFilter/SizeFilter.tsx";
 import BrandsHighlight from "./components/BrandsHighlight/BrandsHighlight.tsx";
+import ProductsSection from "./components/ProductsSection/ProductsSection.tsx";
 
 function App() {
 
@@ -15,9 +16,12 @@ function App() {
         <div className="discountBanner">
           <p>10% Na primeira compra</p>
         </div>
-        <CategoriesCarousel/>
-        <SizeFilter/>
-        <BrandsHighlight/>
+        <div className="gray-background-area">
+          <CategoriesCarousel/>
+          <SizeFilter/>
+          <BrandsHighlight/>
+          <ProductsSection/>
+        </div>
       </main>
     </>
   )
