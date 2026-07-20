@@ -16,7 +16,7 @@ function App() {
         <div className="discountBanner">
           <p>10% Na primeira compra</p>
         </div>
-        <div className="dark-background-wrapper">
+        <div className="gray-background-area">
           <CategoriesCarousel/>
           <SizeFilter/>
           <BrandsHighlight/>

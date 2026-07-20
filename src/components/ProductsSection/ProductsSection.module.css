@@ -1,14 +1,11 @@
 .container {
-    margin: 15px 0 15px 16px;
+    margin: 0 0 15px 16px;
 }
 
 .tabsContainer {
     display: flex;
-    background-color: var(--color-darker-bg);
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     position: relative;
-    /*border-bottom: 2px solid #FFF;*/
-    /*gap: 24px;*/
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
@@ -24,7 +21,7 @@
     white-space: nowrap;
     background: transparent;
     border: none;
-    border-bottom: 2px solid #FFF;
+    border-bottom: 3px solid #FFF;
     padding: 14px 8px;
     font-size: 16px;
     font-weight: 400;
@@ -42,15 +39,18 @@
 .tab.active::after {
     content: '';
     position: absolute;
-    bottom: -2px;
+    bottom: -2.5px;
     left: 0;
     width: 100%;
     height: 3px;
     background-color: var(--primary-red);
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .productsList {
     display: flex;
     gap: 14px;
+    background-color: var(--neutral-bg-color);
+    padding: 24px 0 24px 16px;
+    margin-left: -16px;
 }

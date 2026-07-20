@@ -7,12 +7,11 @@
     flex-shrink: 0;
     background: var(--color-text-light);
     border-radius: var(--radius-md, 8px);
-    padding: 12px;
+    padding: 0 12px;
 }
 
 .cardHeader {
     position: absolute;
-    top: 12px;
     left: 12px;
     right: 12px;
     display: flex;
@@ -54,12 +53,12 @@
     width: calc(100% + 24px);
     height: 156px;
     display: flex;
-    background-color: var(--color-darker-bg);
+    background-color: var(--color-card-bg);
     align-items: center;
     justify-content: center;
     margin: -12px -12px 12px -12px;
-    border-radius: var(--radius-md, 8px) var(--radius-md, 8px) 0 0; /* Arredonda apenas o topo */
-    padding: 16px; /* Dá um respiro para o tênis não colar na parede cinza */
+    border-radius: var(--radius-md, 8px) var(--radius-md, 8px) 0 0;
+    padding: 16px;
     box-sizing: border-box;
 }
 
