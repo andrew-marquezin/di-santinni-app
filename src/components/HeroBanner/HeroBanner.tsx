@@ -1,12 +1,8 @@
 import {useState} from "react";
-import hero1 from "../../assets/banners/hero-1.jpg";
+import database from "../../data/database.json"
 import styles from "./HeroBanner.module.css";
 
-const banners = [
-  {id: 1, image: '/assets/banner1.jpg', alt: 'Mizuno R$ 350'},
-  {id: 2, image: '/assets/banner2.jpg', alt: 'Novidades Feminino'},
-  {id: 3, image: '/assets/banner3.jpg', alt: 'Tênis Olympikus'},
-];
+const banners = database.home.heroBanners
 
 export default function HeroBanner() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -14,7 +10,8 @@ export default function HeroBanner() {
   return (
     <section className={styles.container}>
       <div className={styles.imageWrapper}>
-        <img src={hero1} alt="homem agachado com foco no tênis" className={styles.bannerImage}/>
+        <img src={banners[currentSlide].imageUrl} alt="homem agachado com foco no tênis"
+             className={styles.bannerImage}/>
         <div className={styles.gradientOverlay}></div>
         <div className={styles.overlay}>
           <div className={styles.priceRow}>
@@ -22,7 +19,9 @@ export default function HeroBanner() {
             <span className={styles.discountBadge}>20% OFF</span>
           </div>
           <h2 className={styles.currentPrice}>R$ 350,00</h2>
-          <button className={styles.ctaButton}>CONFIRA</button>
+          <a href={banners[currentSlide].linkUrl}>
+            <button className={styles.ctaButton}>CONFIRA</button>
+          </a>
         </div>
         <div className={styles.paginationDots}>
           {banners.map((banner, index) => (

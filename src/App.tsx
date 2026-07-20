@@ -1,6 +1,7 @@
 import "./App.css"
 import Header from "./components/Header/Header.tsx";
 import HeroBanner from "./components/HeroBanner/HeroBanner.tsx";
+import CategoriesCarousel from "./components/CategoriesCarousel/CategoriesCarousel.tsx";
 
 function App() {
 
@@ -13,9 +14,8 @@ function App() {
           <p>10% Na primeira compra</p>
         </div>
         <section>
-          <h3>NOSSOS PRODUTOS</h3>
           <div>
-
+            <CategoriesCarousel/>
           </div>
         </section>
       </main>

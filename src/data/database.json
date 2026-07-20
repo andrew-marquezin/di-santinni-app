@@ -2,7 +2,7 @@
   "home": {
     "heroBanners": [
       {
-        "id": "banner-1",
+        "id": "1",
         "imageUrl": "/assets/banners/hero-1.jpg",
         "discountBadge": "20% OFF",
         "oldPrice": 799.00,
@@ -12,34 +12,40 @@
     ],
     "categoriesCarousel": [
       {
-        "id": "cat-1",
+        "id": "1",
         "title": "CHINELOS",
-        "imageUrl": "/assets/categories/chinelos.jpg"
+        "imageUrl": "/assets/categories/chinelos.jpg",
+        "linkUrl": "chinelos"
       },
       {
-        "id": "cat-2",
+        "id": "2",
         "title": "TÊNIS",
-        "imageUrl": "/assets/categories/tenis.jpg"
+        "imageUrl": "/assets/categories/tenis.jpg",
+        "linkUrl": "tenis"
       },
       {
-        "id": "cat-3",
+        "id": "3",
         "title": "SAPATÊNIS",
-        "imageUrl": "/assets/categories/sapatenis.jpg"
+        "imageUrl": "/assets/categories/sapatenis.jpg",
+        "linkUrl": "sapatenis"
       },
       {
-        "id": "cat-4",
+        "id": "4",
         "title": "TREINO",
-        "imageUrl": "/assets/categories/treino.jpg"
+        "imageUrl": "/assets/categories/treino.jpg",
+        "linkUrl": "treino"
       },
       {
-        "id": "cat-5",
+        "id": "5",
         "title": "SANDÁLIA",
-        "imageUrl": "/assets/categories/sandalia.jpg"
+        "imageUrl": "/assets/categories/sandalia.jpg",
+        "linkUrl": "sandalia"
       },
       {
-        "id": "cat-6",
+        "id": "6",
         "title": "MOCASSIM",
-        "imageUrl": "/assets/categories/mocassim.jpg"
+        "imageUrl": "/assets/categories/mocassim.jpg",
+        "linkUrl": "mocassim"
       }
     ],
     "sizeFilter": [
@@ -54,22 +60,22 @@
     ],
     "brandHighlights": [
       {
-        "id": "brand-converse",
+        "id": "1",
         "imageUrl": "/assets/brands/converse-bg.jpg",
         "logoUrl": "/assets/brands/converse-logo.png"
       },
       {
-        "id": "brand-olympikus",
+        "id": "2",
         "imageUrl": "/assets/brands/olympikus-bg.jpg",
         "logoUrl": "/assets/brands/olympikus-logo.png"
       },
       {
-        "id": "brand-kenner",
+        "id": "3",
         "imageUrl": "/assets/brands/kenner-bg.jpg",
         "logoUrl": "/assets/brands/kenner-logo.png"
       },
       {
-        "id": "brand-converse",
+        "id": "4",
         "imageUrl": "/assets/brands/converse-bg.jpg",
         "logoUrl": "/assets/brands/converse-logo.png"
       }
@@ -83,7 +89,7 @@
       ],
       "items": [
         {
-          "id": "prod-1",
+          "id": "1",
           "brand": "MIZUNO",
           "name": "Tênis Mizuno Wave Endeavor 3",
           "imageUrl": "/assets/products/mizuno-wave.jpg",
@@ -114,7 +120,7 @@
       "activeBanner": "/assets/brands/mizuno-showcase.jpg",
       "items": [
         {
-          "id": "prod-1",
+          "id": "1",
           "brand": "MIZUNO",
           "name": "Tênis Mizuno Wave Endeavor 3",
           "imageUrl": "/assets/products/mizuno-wave.jpg",
@@ -136,7 +142,7 @@
     },
     "newArrivals": [
       {
-        "id": "prod-1",
+        "id": "1",
         "brand": "MIZUNO",
         "name": "Tênis Mizuno Wave Endeavor 3",
         "imageUrl": "/assets/products/mizuno-wave.jpg",
