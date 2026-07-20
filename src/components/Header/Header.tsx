@@ -10,7 +10,9 @@ export default function Header({cartItemCount = 1}) {
       <button className={styles.iconButton} aria-label="Pesquisar">
         <SearchIcon className={styles.icon}/>
       </button>
-      <img src={logo} alt="di santinni"/>
+      <a href="/" aria-label="Página inicial da Di Santinni">
+        <img src={logo} alt="Página inicial da Di Santinni"/>
+      </a>
       <button className={styles.iconButton} aria-label="Carrinho de compras">
         <div className={styles.bagWrapper}>
           <BagIcon className={styles.icon}/>

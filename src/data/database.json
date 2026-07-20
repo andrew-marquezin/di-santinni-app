@@ -244,6 +244,9 @@
         },
         "gender": "MASCULINO"
       }
-    ]
+    ],
+    "footer": {
+      "footerImage": "/assets/banners/footer-banner.jpg"
+    }
   }
 }

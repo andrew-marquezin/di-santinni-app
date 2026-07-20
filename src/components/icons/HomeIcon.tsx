@@ -1,0 +1,17 @@
+import React from 'react';
+
+interface IconProps {
+  color?: string;
+}
+
+const HomeIcon: React.FC<IconProps> = ({color = 'currentColor'}) => {
+  return (
+    <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M0 9V22.5H7.5V16.5C7.5 14.8431 8.84314 13.5 10.5 13.5C12.1569 13.5 13.5 14.8431 13.5 16.5V22.5H21V9L10.5 0L0 9Z"
+        fill={color}/>
+    </svg>
+  );
+};
+
+export default HomeIcon;

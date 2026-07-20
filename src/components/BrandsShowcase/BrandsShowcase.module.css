@@ -12,6 +12,8 @@
 
 .title {
     margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .tabsContainer {
@@ -73,7 +75,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: var(--radius-md);
+    border-radius: 24px;
 }
 
 .gradientOverlay {
@@ -84,7 +86,7 @@
     height: 100%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 60%);
     pointer-events: none;
-    border-radius: var(--radius-md);
+    border-radius: 24px;
 }
 
 .productsList {
@@ -93,8 +95,6 @@
     width: 100%;
     height: 470px;
     padding-top: 20px;
-    margin-left: -16px;
-    padding-left: 16px;
     overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
