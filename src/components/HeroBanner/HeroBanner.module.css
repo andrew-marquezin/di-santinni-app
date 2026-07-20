@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: -122px;
+    margin-top: -80px;
 }
 
 .imageWrapper {
@@ -13,7 +13,7 @@
 
 .bannerImage {
     width: 150%;
-    transform: translateX(-13%);
+    transform: translateX(-16%);
     height: auto;
     display: block;
     object-fit: cover;
@@ -25,13 +25,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 60%);
     pointer-events: none;
 }
 
 .overlay {
     position: absolute;
-    bottom: 84px;
+    bottom: 74px;
     width: 275px;
     left: 50%;
     transform: translateX(-50%);
@@ -87,7 +87,7 @@
 
 .paginationDots {
     position: absolute;
-    bottom: 50px;
+    bottom: 33px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;

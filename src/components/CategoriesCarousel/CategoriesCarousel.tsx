@@ -20,7 +20,7 @@ export default function CategoriesCarousel() {
     <section className={styles.carouselContainer} aria-labelledby="categories-title">
       <h2 id="categories-title" className={styles.title}>NOSSOS PRODUTOS</h2>
       <div className={styles.carouselWrapper}>
-        <button className={`${styles.arrow} ${styles.arrowLeft}`} onClick={() => handleScroll('left')}
+        <button className={`arrow ${styles.arrowLeft}`} onClick={() => handleScroll('left')}
                 aria-label="Rolar para esquerda">
           <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M6.5 11L1.5 6L6.5 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
@@ -38,7 +38,7 @@ export default function CategoriesCarousel() {
             </li>
           ))}
         </ul>
-        <button className={`${styles.arrow} ${styles.arrowRight}`} onClick={() => handleScroll('right')}
+        <button className={`arrow ${styles.arrowRight}`} onClick={() => handleScroll('right')}
                 aria-label="Rolar para direita">
           <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1.5 11L6.5 6L1.5 1" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
