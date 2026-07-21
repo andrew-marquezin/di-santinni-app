@@ -7,7 +7,7 @@ import BrandsHighlight from "./components/BrandsHighlight/BrandsHighlight.tsx";
 import ProductsSection from "./components/ProductsSection/ProductsSection.tsx";
 import BrandsShowcase from "./components/BrandsShowcase/BrandsShowcase.tsx";
 import NewArrivals from "./components/NewArrivals/NewArrivals.tsx";
-import NavBar from "./components/NavBar/NavBar.tsx"; // Importa a NavBar
+import NavBar from "./components/NavBar/NavBar.tsx";
 
 function App() {
 
@@ -28,7 +28,7 @@ function App() {
         <BrandsShowcase/>
         <NewArrivals/>
       </main>
-      <NavBar /> {/* Adiciona a NavBar aqui */}
+      <NavBar/>
     </>
   )
 }
